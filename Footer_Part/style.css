@@ -1,0 +1,30 @@
+*{margin: 0px; padding: 0px;}
+
+.footersection{height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.footersection a{height: 100px;
+width: 100px;
+background-color: rgb(211, 205, 205) ;
+border-radius: 50px;
+text-align: center;
+margin: 10px;
+box-shadow: 1px 4px 2px 2px rgb(36, 35, 35); 
+line-height: 110px;
+}
+
+.footersection a i {font-size: 35px;
+transition: all 0.3 linear;}
+
+.footersection a:hover{ transform: scale(1.1);}
+
+.fa-facebook-f{color: rgb(5, 5, 107);}
+
+.fa-instagram{color: rgb(187, 5, 81);}
+
+.fa-twitter{color: rgb(16, 6, 161);}
+
+.fa-youtube{color: rgb(156, 10, 10);}

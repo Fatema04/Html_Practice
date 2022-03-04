@@ -1,0 +1,35 @@
+*{margin: 0px;padding: 0px;}
+
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4));
+    background-blend-mode: darken;
+    letter-spacing: 2px;}
+
+.text{
+    font-size: 60px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 1px 2px 3px black;
+    padding: 10px;
+}
+
+.change::after{
+    color: rgb(209, 30, 69);
+    content: "";
+    animation: cngtxt 10s infinite linear;}
+
+    @keyframes cngtxt {
+      0%{content:"BUDDY..."}  
+      20%{content:"MATE..."} 
+      40%{content:"PARTNER..."} 
+      60%{content:"OPPO..."}  
+      80%{content:"PAL..."}
+      100%{content:"ALLY..."}  
+        
+    }
+

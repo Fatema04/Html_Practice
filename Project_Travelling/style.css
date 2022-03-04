@@ -1,0 +1,141 @@
+
+*{margin: 0px; padding: 0px; box-sizing: border-box;}
+
+
+.clear{overflow: hidden;}
+
+
+body{
+background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(image.jpg) ;
+background-blend-mode: darken;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+}
+
+.navsection{ height: 15vh;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    background-color: rgba(0,0,0,0.3);}
+
+
+
+.menu{
+    width: 60%;
+    padding: 5px;
+    margin: 20px;
+    display: block;}
+
+.menu a{padding: 10px;
+    font-size: 30px;
+     font-weight: bolder;
+     text-decoration: none;
+     color: aliceblue;}
+
+
+.menu a:hover{background-color:aliceblue ; color: rgb(4, 71, 4);}
+
+
+.socialsites{width: 40%;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+.socialsites a{
+    padding: 15px;
+    background-color: rgb(211, 205, 205) ;
+    border-radius: 20px;
+    margin: 20px;
+    
+   
+    }
+    
+    .socialsites a i {font-size: 35px;
+    transition: all 0.3 linear;}
+    
+    .socialsites a:hover{ transform: scale(1.1);}
+    
+    .fa-facebook-f{color: rgb(5, 5, 107);}
+    
+    .fa-instagram{color: rgb(187, 5, 81);}
+    
+    .fa-twitter{color: rgb(16, 6, 161);}
+    
+    .fa-linkedin-in{color: rgb(20, 9, 126);}
+
+
+ main{ display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 85vh;
+   width: 100%;
+   color: antiquewhite;
+   
+
+}
+
+
+section h1{font-size: 70px; 
+    letter-spacing: 3px;
+text-shadow: 1px 2px 3px black;}
+
+section h2{font-size: 50px;
+         padding-left: 60px;
+        margin-top: 20px;
+        text-shadow: 1px 2px 2px black;
+        letter-spacing: 2px; }
+
+
+section p{
+    font-size: 40px;
+    font-weight: bold;
+    text-shadow: 1px 2px 1px black;
+    padding-left: 40px ;
+    margin-top: 20px;
+   
+}
+
+.btn {font-size: 30px;
+    float: right;
+    font-weight: 700;
+    padding: 10px;
+    margin-top: 20px;
+}
+    .btn a{
+        background-color: aliceblue;
+        color: rgb(4, 71, 4);
+        padding: 15px;
+    border-radius: 20px;
+    text-decoration: none;}
+
+
+
+ 
+.btn a:hover{background-color: green; color: white;}
+
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
