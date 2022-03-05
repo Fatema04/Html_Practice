@@ -1,0 +1,43 @@
+*{margin: 0%; padding: 0%;
+}
+
+body{
+    background-image: linear-gradient(white,rgb(228, 51, 96));
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.food{
+
+    width: 80%;
+    height: 100px;
+    margin: 0 auto;
+}
+
+
+
+.food ul li{
+    background-color: rgb(236, 122, 150);
+    height: 50px;
+    float: left;
+    width: 220px;
+    list-style: none;
+    font-size: 30px;
+    font-weight: 900;
+    text-align: center;
+    line-height: 35px;
+    text-transform: uppercase;
+}
+.food ul li ul{
+    display: none;
+}
+
+.food ul li:hover> ul {
+
+    display: block;
+}
+.food ul li:hover{
+    background-color: rgb(231, 9, 54);
+}
