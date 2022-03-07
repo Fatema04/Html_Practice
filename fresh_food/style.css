@@ -1,0 +1,176 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.clear{
+    overflow: hidden;
+}
+
+.marquee{
+    height: 30px;
+    width: 100%;
+    padding: 5px;
+    background-color: rgb(199, 196, 196);
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+nav{
+    height: 100px;
+    width: 100%;
+    background-color: white;
+    color: #000;
+
+}
+.navsection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 30px;
+    color: #000;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    
+}
+
+.location{
+    color: black;
+}
+
+
+.afm{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: black; 
+    font-family: 'arial';
+    letter-spacing: 1px;
+
+    
+}
+
+.searchBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.searchtext{
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 5px;;
+    font-size:20px ;
+    width: 300px;
+    position: relative;
+    background-color: rgb(216, 213, 213) ;
+
+}
+
+.btn{
+
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    right: 440px;
+    font-size: 30px;
+    background-color: rgb(216, 213, 213);
+    color: rgb(17, 17, 16);
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    text-decoration: none;
+
+}
+
+.user{
+    
+    color: black;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.cart{
+    font-size: 30px;
+    color: black;
+}
+
+
+.lang{
+    font-size: 30px;
+    color: black;
+}
+
+.logo{
+    background-color:white;
+    height: 110px;
+    padding-left: 30%;
+}
+
+.menu{
+    height: 50px;
+    background-color: white;
+    border-top:1px solid grey;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    
+}
+
+.menu ul{
+list-style: none;
+display: flex;
+justify-content: space-around;
+align-items: center;
+
+
+}
+
+.menu ul li{
+    padding: 10px;
+    text-transform: uppercase;
+    font-family: arial;
+    font-size: 22px;
+    font-weight: 500;
+
+}
+
+.menu ul li a{
+    color: #000;
+    text-decoration: none;
+}
+
+.img{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 400px;
+    width: 100%;
+    background-color: white;
+}
+
+.img1{
+    height: 300px;
+    width: 300px;
+   
+}
+
+.img2{
+    height: 300px;
+    width: 300px;
+}
+
+.img3{
+    height: 300px;
+    width: 300px;
+}
+
+.img4{
+    height: 300px;
+    width: 300px;
+}
