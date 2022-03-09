@@ -9,4 +9,4 @@
 
 - Part2
 
-![fresh_food](images/output2.png)
+![fresh_food](images/output.png)

@@ -322,3 +322,32 @@ border-top: 1px solid grey;
     font-weight: 400;
  
 }
+
+.social{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.social a{
+    text-decoration: none;
+    border-radius: 10px;
+    color: #000;
+transition: all 0.3s linear;
+}
+.social a:hover{
+    transform: scale(1.2);
+    background-color: #000;
+    color: #fff;
+}
+.download{
+    margin: 15px;
+}
+.download img{
+    transition: all 0.2s linear;
+    
+}
+.download img:hover{
+    transform: scale(1.1);
+}
+
+
