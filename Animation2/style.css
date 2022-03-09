@@ -1,0 +1,45 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+html{
+    height: 100vh;
+    width: 100vw;
+    background-color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    color: white;
+    font-size: 50px;
+    text-transform: uppercase;
+    position: relative;
+}
+h1::before{
+    content: "Welcome...";
+    width: 100%;
+    top: 0%;
+    left: 0%;
+    color: rgb(233, 4, 92);
+    position: absolute;
+    border-right: 5px solid rgb(233, 4, 92) ;
+    animation: slide 3s linear infinite;
+    -webkit-animation: slide 4s linear infinite;
+    overflow: hidden;
+}
+
+@keyframes slide{
+    0%{
+        width: 0%;
+    }
+    50%{
+        width: 100%;
+    } 
+    100%{
+        width: 0%;
+    }
+}
