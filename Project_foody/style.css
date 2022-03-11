@@ -1,0 +1,58 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.cleat{
+    overflow: hidden;
+}
+
+.up{
+    height: 20%vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo{
+    
+    height: 100px;
+    width: 30%;
+}
+.logo ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 45px;
+    font-weight: bolder;
+    font-family: arial;
+    letter-spacing: 2px;
+    margin: 25px 15px;
+}
+.logo ul li:nth-child(1){
+    color: rgb(42, 44, 42);
+}
+
+.logo ul li:nth-child(2){
+    color: rgb(228, 231, 9);
+}
+.logo ul li:nth-child(3){
+    color: rgb(238, 22, 50);
+}
+.logo ul li:nth-child(4){
+    color: rgb(8, 202, 8);
+}
+
+.logo ul li:nth-child(5){
+    color: rgb(42, 44, 42);
+
+}
+
+
+
+.nav{
+    height: 100px;
+    width: 70%;
+    background-color: cornflowerblue;
+}
