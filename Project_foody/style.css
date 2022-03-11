@@ -6,9 +6,14 @@
 .cleat{
     overflow: hidden;
 }
+body{
+   min-height: 100%;
+    width: 100%;
+    background: linear-gradient( to BOTTOM, #EBDEF0, #AED6F1);
+}
 
 .up{
-    height: 20%vh;
+    height: 20vh;
     width: 100%;
     display: flex;
     justify-content: space-around;
@@ -49,10 +54,81 @@
 
 }
 
-
-
 .nav{
     height: 100px;
     width: 70%;
-    background-color: cornflowerblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
+.nav a{
+    text-decoration: none;
+    margin: 20px;
+    font-size: 20px;
+    font-weight: 900;
+    font-family: arial;
+    letter-spacing: 1px;
+    color: rgb(42, 44, 42);
+}
+
+.nav a:nth-child(1){
+    background-color: orange;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+.nav a:nth-child(7){
+    background-color: rgb(238, 22, 50);
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+.round1{
+    color: white;
+    height: 400px;
+    width: 400px;
+    border: 2px solid rgb(119, 5, 110);
+    border-radius: 50%;
+    position: relative;
+    left: 720px;
+
+}
+
+.round2{
+    color: white;
+    height: 350px;
+    width: 350px;
+    border: 2px solid rgb(8, 27, 202);
+    border-radius: 50%;
+    position: relative;
+    left: 750px;
+    bottom: 380px;
+
+}
+
+.img1{
+    height: 500px;
+    width: 600px;
+}
+img{
+    height: 327px;
+    width: 280px;
+    position: absolute;
+    top: 150px;
+    right: 200px;
+    border-radius: 40%;
+}
+.emo1 {
+   font-size: 50px;
+   position: absolute;
+   top: 250px;
+   right: 50px;
+}
+.emo2{
+
+
+   font-size: 50px;
+   position: absolute;
+   top: 120px;
+   right: 320px;}
