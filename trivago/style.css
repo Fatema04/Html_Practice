@@ -1,0 +1,101 @@
+body{
+    height: 100vh;
+    width: 100vw;
+
+}
+.background{
+    align-items: center;
+    background: url(images/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(2px);
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    position: relative;
+
+}
+.main{
+    background-color: rgb(253, 249, 249);
+    height: 90%;
+    width: 90%;
+    position: absolute;
+    top: 60px;
+    left: 70px;
+}
+
+.up{
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+
+}
+.logo{ 
+    height: 100px;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.logo ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    bottom: 15px;
+    font-size: 50px;
+    font-weight: bold;
+    font-family:   Helvetica;
+    
+}
+.nav{
+    height: 70%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #5f5d5d;
+    
+}
+.nav a{text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    font-family:   Helvetica;
+    margin: 15px;
+    
+
+
+}
+.log {
+    padding: 15px;
+    border-top-left-radius: 30px;
+    color: white;
+    background-color: #1A6D65;
+}
+
+.sign{
+    padding: 15px;
+    border-bottom-right-radius: 30px;
+    color: white;
+    background-color: #E66A23;
+}
+
+.content{
+height: 80vh;
+width: 100%;
+}
+
+.rightside{
+    position: absolute;
+    right: 50px;
+}
+
+img{
+    height: 400px;
+    width: 450px;
+    clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+}
