@@ -88,8 +88,31 @@ body{
 height: 80vh;
 width: 100%;
 }
+.leftside {
+    width: 40%;
+}
+.leftside h2 {
+    font-size: 40px;
+    font-weight: 700;
+    font-family:   Helvetica;
+    padding-left: 30px;
+    color: #E66A23;
+
+}
+.world{
+    color: #1A6D65;
+}
+
+.leftside h4 {
+    font-size: 20px;
+    font-weight: 700;
+    font-family:   Helvetica;
+    padding-left: 30px;
+    color: #E66A23;}
+
 
 .rightside{
+    width: 60%;
     position: absolute;
     right: 50px;
 }
