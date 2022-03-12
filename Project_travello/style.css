@@ -23,7 +23,7 @@ header{
     background-color: rgb(253, 249, 249);
     height: 90%;
     width: 90%;
-    position: absolute;
+    position: fixed;
     top: 40px;
     left: 70px;
     border-radius: 40px;
