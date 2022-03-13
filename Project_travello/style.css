@@ -2,44 +2,46 @@
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
-}
 
-header{
-    
+}
+html{
+
+    scroll-behavior: smooth;
+
+
+
     height: 100vh;
-    width: 100%;
-    background-image: url(images/bg.png);
+    width: 100vw;
+    background:url(images/bg.png);
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     
     
 }
 
   
     
-    
-
-
-.main{
-    background-color: rgb(253, 249, 249);
-    height: 90%;
-    width: 90%;
-    padding: 10px;
-    border-radius: 40px;
-    margin-left: 50px ;
-    
+body{
+    margin: 30px 0px 0px 70px;
+    height: 90vh;
+    width: 90vw;
+    background-color: #fff;
+    border-top-left-radius: 70px;
+    border-bottom-right-radius: 70px;
 }
 
-.up{
+ .up{
+
     height: 20vh;
     width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
     
-
 }
 .logo{ 
+    
     width:20%;
     padding-left: 35px;
     display: flex;
@@ -50,7 +52,7 @@ header{
 .emo{
 font-size: 45px;
 position: absolute;
-left: 0px;
+left: 2px;
 top: 0px;
 }
 
@@ -87,23 +89,25 @@ top: 0px;
     
 
 
-.nav{
-   
+nav{
     width: 80%;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     
     
 }
-.nav a{text-decoration: none;
+nav a{
+    text-decoration: none;
     font-size: 20px;
     font-weight: 700;
     font-family:   Helvetica;
     margin: 15px;}
-    .same{
-    color: #5f5d5d;
-}
+
+
+.same{color: #5f5d5d;}
+
+
 .log {
     padding: 15px;
     border-top-left-radius: 30px;
@@ -121,20 +125,20 @@ top: 0px;
 }
 
 .content{
-position: relative;
-height: 80vh;
+
+height: 70vh;
 display: flex;
 justify-content: space-between;
 align-items: center;
 }
-.leftside {
+
+
+.left {
     width: 40%;
     
     
 }
-.leftside h2 {
-    position: absolute;
-    top: 40px;
+.left h2 {
     font-size: 40px;
     font-weight: 700;
     font-family:   Helvetica;
@@ -146,9 +150,8 @@ align-items: center;
     color: #E66A23;
 }
 
-.leftside h4 {
-    position: absolute;
-    top: 150px;
+.left h4 {
+    margin:  40px 0px 40px 0px;
     font-size: 20px;
     font-weight: 600;
     font-family:   Helvetica;
@@ -159,9 +162,8 @@ align-items: center;
 
 
     .more{
-        position: absolute;
-        top: 250px;
-        left: 30px;
+        
+        margin-left: 30px;
         text-decoration: none;
         font-size: 30px;
         font-weight: 900;
@@ -174,44 +176,36 @@ align-items: center;
        box-shadow: 1px 2px gray;
     }
 
-.rightside{
-    width: 60%;
+.right{
 
-    
-   
-}
-.rightside img{
-    height: auto;
-    max-width: 1000px;
-    
-   
-   
-    
+width: 60%;
+display: flex;
+justify-content: center;
+align-items: center;
 
 }
+ 
 
-img{  position: absolute; 
-     right: 90px;
-    top: 10px;
+img{ 
+    margin-bottom:40px ;
     height: 400px;
     width: 550px;
     clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
 }
 
 .footer{
+    margin-top: 20px;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
-    padding: 30px;
+    
     
     
     
 }
 
 .footer h3{
-    position: absolute;
-    left: 300px;
-    top:380px;
+    margin:  30px 0px 20px 0px;
     font-size: 20px;
     font-weight: bold;
     font-family: helvetica;
@@ -223,15 +217,12 @@ img{  position: absolute;
     
 
 }
-.link{
-position: absolute;
-top: 380px;
-left:450px;}
 
-.link a{
+
+.footer a{
+    padding: 10px;
+    margin: 10px 0px 0px 0px;
     text-decoration: none;
-    padding: 15px;
-    margin: 10px;
     background-color: #1A6D65;
     color: #fff;
     border-top-left-radius: 10px;
