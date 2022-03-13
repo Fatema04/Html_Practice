@@ -5,8 +5,8 @@
  - Part1
 
 
-![fresh_food](images/output1.png)
+![Output1](images/output1.png)
 
 - Part2
 
-![fresh_food](images/output.png)
+![Output2](images/output.png)
