@@ -16,6 +16,7 @@ html{
     scroll-behavior: smooth;
     
     
+    
 }
 
   
@@ -27,6 +28,7 @@ body{
     background-color: #fff;
     border-top-left-radius: 70px;
     border-bottom-right-radius: 70px;
+    filter: brightness(2px);
 }
 
  .up{
