@@ -6,16 +6,14 @@
 }
 html{
 
-    scroll-behavior: smooth;
-
-
-
+   
     height: 100vh;
     width: 100vw;
     background:url(images/bg.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    scroll-behavior: smooth;
     
     
 }
@@ -52,8 +50,8 @@ body{
 .emo{
 font-size: 45px;
 position: absolute;
-left: 2px;
-top: 0px;
+right: 180px;
+bottom: 10px;
 }
 
 
