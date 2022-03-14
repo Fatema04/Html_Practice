@@ -58,11 +58,13 @@
     
 
  }
- .up h2{background-color: chartreuse;
+ .up h2{
+     color: #fff;
+     text-shadow: 1px 2px 2px rgb(7, 7, 7);
     font-size: 35px;
     font-weight: bold;
     font-family: helvetica;
-    margin: 0px 40px 30px 20px;
+    margin: 0px 40px 80px 20px;
     letter-spacing: 1px;
 
  }
@@ -75,7 +77,7 @@
     color: #fff;
     background-color: #0b7470;
     letter-spacing: 1px;
-    margin: 20px;
+    margin: 30px;
     padding: 10px;
     border-radius: 15px;
 
@@ -95,32 +97,68 @@
  }
 
  .up img{
-    background:linear-gradient( to bottom,#9FD3D1 77%,#FFF 23%);
+    background:linear-gradient( to bottom,#9FD3D1 75%,#FFF 25%);
     
     height: 400px;
     width: 820px;
  }
 
- .down{background-color: cadetblue;
+ .down{
      display: flex;
  }
 
- .text{background-color: blue;
+ .text{
      width: 25%;
      font-size: 20px;
      font-weight: 500;
      font-family: helvetica;
      padding: 30px;
-
- }
-
-
- .visit{
-
- }
-
- .chair{background-color: rgb(221, 155, 33);
+     background-color:rgb(211, 211, 216) ;
     width: 25%;
+    border: 2px solid grey ;
+    border-radius: 15px;
+
+     
+
+ }
+ .visit{
+     display: grid;
+     text-align: center;
+     
+ }
+
+
+ .visit1{
+    font-size: 20px;
+    font-weight: 900;
+    font-family: helvetica;
+    text-decoration: none;
+    background-color: #0b7470;
+    color: #fff;
+    letter-spacing: 1px;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 15px; 
+ }
+
+ 
+ .visit2{
+    font-size: 20px;
+    font-weight: 900;
+    font-family: helvetica;
+    text-decoration: none;
+    background-color: #0b7470;
+    color: #fff;
+    letter-spacing: 1px;
+    margin-top: 20px;
+    padding-top: 100px;
+    padding: 15px;
+    border-radius: 15px; }
+
+ .chair{background-color:rgb(211, 211, 216) ;
+    width: 25%;
+    border: 2px solid grey ;
+    border-radius: 15px;
 
 }
 .chair img{
@@ -140,8 +178,10 @@
 
 
 .bed{
-    background-color: rgb(41, 168, 41);
+    background-color: rgb(211, 211, 216);
         width: 25%;
+        border: 2px solid grey ;
+        border-radius: 15px;
     }
 
 
@@ -158,9 +198,11 @@
         margin-top: 10px;
     }  
 
-    .mirror{background-color:rgb(17, 150, 117);
+    .mirror{background-color:rgb(211, 211, 216);
         width: 25%;
-    }
+        border: 2px solid grey ;
+        border-radius: 15px;
+    } 
 
     .mirror img{
         height: 250px;
