@@ -43,13 +43,26 @@
      text-transform: capitalize;
      text-decoration: none;
      font-size: 25px;
-     font-weight: 500;
+     font-weight: 600;
      font-family: helvetica;
      margin: 20px;
-    
-     color: #0b7470;
      text-shadow: 1px 2px 2px rgb(53, 52, 52);
+     transition: all 0.4s linear;
  }
+
+ .nav a:hover{
+     transform: scale(1.1);
+ }
+
+ .same{
+     color: #fff;
+     border: 2px solid #0b7470;
+     padding: 8px;
+     border-radius: 15px;
+     
+ }
+
+
 
 .log{
     letter-spacing: 1px;
@@ -117,7 +130,7 @@
     padding: 10px;
     border-radius: 15px;
     text-shadow: 1px 2px 2px rgb(53, 52, 52);
-
+    
  }
 
  .ex{
@@ -133,6 +146,8 @@
     border-radius: 15px; 
     text-shadow: 1px 2px 2px rgb(53, 52, 52);
  }
+
+
 
  .up img{
     background:linear-gradient( to bottom,#9FD3D1 75%,#FFF 25%);
@@ -155,9 +170,11 @@
     width: 25%;
     border: 2px solid grey ;
     border-radius: 15px;
+    transition: all 0.9s linear;
+ }
 
-     
-
+ .text:hover{
+     transform: scale(0.9);
  }
  .visit{
      display: grid;
@@ -200,7 +217,12 @@
     width: 25%;
     border: 2px solid grey ;
     border-radius: 15px;
+    transition:all 0.9s linear ;
 
+}
+
+.chair:hover{
+    transform: scale(0.9);
 }
 .chair img{
     height: 250px;
@@ -223,8 +245,11 @@
         width: 25%;
         border: 2px solid grey ;
         border-radius: 15px;
+        transition: all 0.9s linear;
     }
-
+    .bed:hover{
+        transform: scale(0.9);
+    }
 
     .bed img{
         height: 250px;
@@ -243,7 +268,12 @@
         width: 25%;
         border: 2px solid grey ;
         border-radius: 15px;
+        transition: all 0.9s linear;
     } 
+
+ .mirror:hover{
+     transform: scale(0.9);
+ }   
 
     .mirror img{
         height: 250px;
@@ -257,3 +287,4 @@
         padding: 30px; 
         margin-top: 10px;
     } 
+    
