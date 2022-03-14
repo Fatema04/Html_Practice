@@ -102,7 +102,7 @@
  }
 
  .down{background-color: cadetblue;
-     
+     display: flex;
  }
 
  .text{background-color: blue;
@@ -118,10 +118,35 @@
     width: 25%;
 
 }
-.sofa{
+.chair img{
+    height: 250px;
+    width: 380px;
+}
+
+.chair h5{
+    font-size: 25px;
+    font-family: helvetica;
+    padding-left: 100px;
+}
+
+
+
+
+.bed{
     background-color: rgb(41, 168, 41);
         width: 25%;
     }
+
+
+    .bed img{
+        height: 230px;
+        width: 350px;
+    }
+    
+    .bed h5{
+        font-size: 25px;
+        font-family: helvetica;
+        padding-left: 90px;  }  
 
     .mirror{background-color:rgb(17, 150, 117)e;
         width: 25%;
