@@ -23,25 +23,60 @@
  .logo{
     width: 20%;
     padding-left: 50px;
+    color: #fff;
+    text-shadow: 1px 2px 2px rgb(53, 52, 52);
 
  }
+
+
  .nav{
     width: 80%;
     height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
+  
  
  }
+
  .nav a{
      text-transform: capitalize;
      text-decoration: none;
-     font-size: 20px;
-     font-weight: 400;
+     font-size: 25px;
+     font-weight: 500;
      font-family: helvetica;
      margin: 20px;
-     padding-top: 20px;
+    
+     color: #0b7470;
+     text-shadow: 1px 2px 2px rgb(53, 52, 52);
  }
+
+.log{
+    letter-spacing: 1px;
+   
+    padding: 8px;
+    border-radius: 15px; 
+    text-shadow: 1px 2px 2px rgb(53, 52, 52);
+    background-color: #0b7470;
+    color: #fff;
+  
+
+}
+
+.sign{
+
+    letter-spacing: 1px;
+    
+    padding: 10px;
+    border-radius: 15px; 
+
+    text-shadow: 1px 2px 2px rgb(53, 52, 52);
+    background-color: #0b7470;
+    color: #fff;
+   
+
+}
+
 
  main{
     background:linear-gradient( to bottom,#9fd3d1 70%,#fff 30%);
@@ -60,12 +95,13 @@
  }
  .up h2{
      color: #fff;
-     text-shadow: 1px 2px 2px rgb(7, 7, 7);
+    
     font-size: 35px;
     font-weight: bold;
     font-family: helvetica;
-    margin: 0px 40px 80px 20px;
+    margin: 0px 40px 30px 20px;
     letter-spacing: 1px;
+    text-shadow: 1px 2px 2px rgb(53, 52, 52);
 
  }
 
@@ -77,9 +113,10 @@
     color: #fff;
     background-color: #0b7470;
     letter-spacing: 1px;
-    margin: 30px;
+    margin: 20px;
     padding: 10px;
     border-radius: 15px;
+    text-shadow: 1px 2px 2px rgb(53, 52, 52);
 
  }
 
@@ -94,6 +131,7 @@
     margin-left: 10px;
     padding: 10px;
     border-radius: 15px; 
+    text-shadow: 1px 2px 2px rgb(53, 52, 52);
  }
 
  .up img{
@@ -139,6 +177,7 @@
     padding: 15px;
     margin-top: 20px;
     border-radius: 15px; 
+    text-shadow: 1px 2px 2px rgb(53, 52, 52);
  }
 
  
@@ -153,7 +192,9 @@
     margin-top: 20px;
     padding-top: 100px;
     padding: 15px;
-    border-radius: 15px; }
+    border-radius: 15px;
+    text-shadow: 1px 2px 2px rgb(53, 52, 52);
+}
 
  .chair{background-color:rgb(211, 211, 216) ;
     width: 25%;
