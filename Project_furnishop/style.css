@@ -1,5 +1,4 @@
-*{
-    margin: 0%;
+*{  margin: 0%;
     padding: 0%;
     }
 
@@ -56,17 +55,13 @@
 
  .same{
      color: #fff;
-     border: 2px solid #0b7470;
-     padding: 8px;
-     border-radius: 15px;
-     
+       
  }
 
 
 
 .log{
     letter-spacing: 1px;
-   
     padding: 8px;
     border-radius: 15px; 
     text-shadow: 1px 2px 2px rgb(53, 52, 52);
@@ -79,10 +74,8 @@
 .sign{
 
     letter-spacing: 1px;
-    
     padding: 10px;
     border-radius: 15px; 
-
     text-shadow: 1px 2px 2px rgb(53, 52, 52);
     background-color: #0b7470;
     color: #fff;
@@ -94,12 +87,10 @@
  main{
     background:linear-gradient( to bottom,#9fd3d1 70%,#fff 30%);
     height:80vh ;
-    
-    
+     
  }
 
- .up{
-    
+ .up{    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -107,8 +98,7 @@
 
  }
  .up h2{
-     color: #fff;
-    
+    color: #fff;
     font-size: 35px;
     font-weight: bold;
     font-family: helvetica;
@@ -119,12 +109,12 @@
  }
 
  .buy{
+    color: #fff;
+    background-color: #0b7470;
     font-size: 30px;
     font-weight: 900;
     font-family: helvetica;
     text-decoration: none;
-    color: #fff;
-    background-color: #0b7470;
     letter-spacing: 1px;
     margin: 20px;
     padding: 10px;
@@ -134,12 +124,12 @@
  }
 
  .ex{
+    color: #fff;
+    background-color: #0b7470;
     font-size: 30px;
     font-weight: 900;
     font-family: helvetica;
     text-decoration: none;
-    background-color: #0b7470;
-    color: #fff;
     letter-spacing: 1px;
     margin-left: 10px;
     padding: 10px;
@@ -150,10 +140,9 @@
 
 
  .up img{
-    background:linear-gradient( to bottom,#9FD3D1 75%,#FFF 25%);
-    
     height: 400px;
     width: 820px;
+    background:linear-gradient( to bottom,#9FD3D1 75%,#FFF 25%);
  }
 
  .down{
@@ -167,29 +156,27 @@
      font-family: helvetica;
      padding: 30px;
      background-color:rgb(211, 211, 216) ;
-    width: 25%;
-    border: 2px solid grey ;
-    border-radius: 15px;
-    transition: all 0.9s linear;
+     border: 2px solid grey ;
+     border-radius: 15px;
+     transition: all 0.9s linear;
  }
 
- .text:hover{
-     transform: scale(0.9);
- }
+ .text:hover{transform: scale(0.9);}
+
+
  .visit{
      display: grid;
-     text-align: center;
-     
+     text-align: center;   
  }
 
 
  .visit1{
+    background-color: #0b7470;
+    color: #fff;
     font-size: 20px;
     font-weight: 900;
     font-family: helvetica;
     text-decoration: none;
-    background-color: #0b7470;
-    color: #fff;
     letter-spacing: 1px;
     padding: 15px;
     margin-top: 20px;
@@ -199,12 +186,12 @@
 
  
  .visit2{
+    background-color: #0b7470;
+    color: #fff;
     font-size: 20px;
     font-weight: 900;
     font-family: helvetica;
     text-decoration: none;
-    background-color: #0b7470;
-    color: #fff;
     letter-spacing: 1px;
     margin-top: 20px;
     padding-top: 100px;
@@ -213,8 +200,9 @@
     text-shadow: 1px 2px 2px rgb(53, 52, 52);
 }
 
- .chair{background-color:rgb(211, 211, 216) ;
+ .chair{
     width: 25%;
+    background-color:rgb(211, 211, 216) ;
     border: 2px solid grey ;
     border-radius: 15px;
     transition:all 0.9s linear ;
@@ -224,6 +212,8 @@
 .chair:hover{
     transform: scale(0.9);
 }
+
+
 .chair img{
     height: 250px;
     width: 380px;
@@ -241,22 +231,23 @@
 
 
 .bed{
-    background-color: rgb(211, 211, 216);
         width: 25%;
+        background-color:rgb(211, 211, 216) ;
         border: 2px solid grey ;
         border-radius: 15px;
         transition: all 0.9s linear;
     }
-    .bed:hover{
+
+.bed:hover{
         transform: scale(0.9);
     }
 
-    .bed img{
+.bed img{
         height: 250px;
         width: 300px;
     }
     
-    .bed h5{
+.bed h5{
         font-size: 25px;
         font-family: helvetica;
         font-weight: 500;
@@ -264,23 +255,25 @@
         margin-top: 10px;
     }  
 
-    .mirror{background-color:rgb(211, 211, 216);
+.mirror{
         width: 25%;
+        background-color:rgb(211, 211, 216) ;
         border: 2px solid grey ;
         border-radius: 15px;
         transition: all 0.9s linear;
     } 
 
- .mirror:hover{
-     transform: scale(0.9);
- }   
 
-    .mirror img{
+.mirror:hover{
+     transform: scale(0.9);}   
+
+
+.mirror img{
         height: 250px;
-        width: 300px;
-    }
+        width: 300px;}
+
     
-    .mirror h5{
+.mirror h5{
         font-size: 25px;
         font-family: helvetica;
         font-weight: 500;
