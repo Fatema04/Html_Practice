@@ -114,6 +114,11 @@
 
  }
 
+
+ .visit{
+
+ }
+
  .chair{background-color: rgb(221, 155, 33);
     width: 25%;
 
@@ -125,8 +130,10 @@
 
 .chair h5{
     font-size: 25px;
+    font-weight: 500;
     font-family: helvetica;
-    padding-left: 100px;
+    padding: 40px;
+    margin-top: 10px;
 }
 
 
@@ -139,15 +146,31 @@
 
 
     .bed img{
-        height: 230px;
-        width: 350px;
+        height: 250px;
+        width: 300px;
     }
     
     .bed h5{
         font-size: 25px;
         font-family: helvetica;
-        padding-left: 90px;  }  
+        font-weight: 500;
+        padding: 20px; 
+        margin-top: 10px;
+    }  
 
-    .mirror{background-color:rgb(17, 150, 117)e;
+    .mirror{background-color:rgb(17, 150, 117);
         width: 25%;
     }
+
+    .mirror img{
+        height: 250px;
+        width: 300px;
+    }
+    
+    .mirror h5{
+        font-size: 25px;
+        font-family: helvetica;
+        font-weight: 500;
+        padding: 30px; 
+        margin-top: 10px;
+    } 
