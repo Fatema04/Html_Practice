@@ -1,0 +1,128 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    }
+
+ .clear{ overflow: hidden;}   
+
+ body{
+     height: 100vh;
+     width: 100vw;
+ }
+
+
+ header{background-color:#9FD3D1;
+     height: 20vh;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     
+
+ }
+
+ .logo{
+    width: 20%;
+    padding-left: 50px;
+
+ }
+ .nav{
+    width: 80%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+ }
+ .nav a{
+     text-transform: capitalize;
+     text-decoration: none;
+     font-size: 20px;
+     font-weight: 400;
+     font-family: helvetica;
+     margin: 20px;
+     padding-top: 20px;
+ }
+
+ main{
+    background:linear-gradient( to bottom,#9fd3d1 70%,#fff 30%);
+    height:80vh ;
+    
+    
+ }
+
+ .up{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+ }
+ .up h2{background-color: chartreuse;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: helvetica;
+    margin: 0px 40px 30px 20px;
+    letter-spacing: 1px;
+
+ }
+
+ .buy{
+    font-size: 30px;
+    font-weight: 900;
+    font-family: helvetica;
+    text-decoration: none;
+    color: #fff;
+    background-color: #0b7470;
+    letter-spacing: 1px;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 15px;
+
+ }
+
+ .ex{
+    font-size: 30px;
+    font-weight: 900;
+    font-family: helvetica;
+    text-decoration: none;
+    background-color: #0b7470;
+    color: #fff;
+    letter-spacing: 1px;
+    margin-left: 10px;
+    padding: 10px;
+    border-radius: 15px; 
+ }
+
+ .up img{
+    background:linear-gradient( to bottom,#9FD3D1 77%,#FFF 23%);
+    
+    height: 400px;
+    width: 820px;
+ }
+
+ .down{background-color: cadetblue;
+     
+ }
+
+ .text{background-color: blue;
+     width: 25%;
+     font-size: 20px;
+     font-weight: 500;
+     font-family: helvetica;
+     padding: 30px;
+
+ }
+
+ .chair{background-color: rgb(221, 155, 33);
+    width: 25%;
+
+}
+.sofa{
+    background-color: rgb(41, 168, 41);
+        width: 25%;
+    }
+
+    .mirror{background-color:rgb(17, 150, 117)e;
+        width: 25%;
+    }
