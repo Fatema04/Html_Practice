@@ -121,3 +121,122 @@ box-sizing: border-box;
     padding: 20px;
     border-radius: 5px;
 }
+.cat{
+    display: flex;
+}
+
+.list1{
+    width: 24%;
+    height: 350px;
+    background-color: #fff;
+    border: 1px solid rgb(10, 102, 10);
+    border-radius: 10px;
+    
+}
+
+.ls1{
+    font-size: 20px;
+    color: rgb(10, 102, 10);
+    background-color: #fff;
+    text-align: center;
+    border: 1px solid rgb(10, 102, 10);
+    border-radius: 5px;
+
+    
+}
+.list1 img{
+    height: 190px;
+    width:310px;
+    margin-top: 40px;
+}
+.list1 a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+     background-color: rgb(10, 102, 10);
+    color: rgb(253, 251, 251);
+    padding: 10px;
+    margin-top: 50px;
+    position: relative;
+    top: 40px;
+    left: 10px;
+     border-radius: 10px;
+}
+
+
+.list2{
+    width: 24%;
+    height: 350px;
+    background-color: #fff;
+    border: 1px solid rgb(10, 102, 10);
+    border-radius: 10px;
+    
+}
+
+.ls2{
+    font-size: 20px;
+    color: rgb(10, 102, 10);
+    background-color: #fff;
+    text-align: center;
+    border: 1px solid rgb(10, 102, 10);
+    border-radius: 5px;
+
+    
+}
+.list2 img{
+    height: 190px;
+    width:310px;
+    margin-top: 40px;
+}
+.list2 a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+     background-color: rgb(10, 102, 10);
+    color: rgb(253, 251, 251);
+    padding: 10px;
+    margin-top: 50px;
+    position: relative;
+    top: 40px;
+    left: 10px;
+     border-radius: 10px;
+}
+
+.list3{
+    width: 24%;
+    height: 350px;
+    background-color: #fff;
+    border: 1px solid rgb(10, 102, 10);
+    border-radius: 10px;
+    
+}
+
+.ls3{
+    font-size: 20px;
+    color: rgb(10, 102, 10);
+    background-color: #fff;
+    text-align: center;
+    border: 1px solid rgb(10, 102, 10);
+    border-radius: 5px;
+
+    
+}
+.list3 img{
+    height: 190px;
+    width:305px;
+    margin-top: 40px;
+}
+.list3 a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+     background-color: rgb(10, 102, 10);
+    color: rgb(253, 251, 251);
+    padding: 10px;
+    margin-top: 50px;
+    position: relative;
+    top: 40px;
+    left: 10px;
+     border-radius: 10px;
+}
+
