@@ -1,2 +1,2 @@
 ## Output 
-![output](output.png)
+![output](images/output1.png)

@@ -12,6 +12,7 @@
     position: absolute;
     top: 100px;
     left: 300px;
+    color: rgb(49, 48, 48);
 
 }
 
@@ -86,6 +87,7 @@
     font-weight: 900;
     border-radius: 5px;
     background-color: #5bb344;
+    color: rgb(49, 48, 48); 
 }
 
 .button2{
