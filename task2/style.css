@@ -1,9 +1,11 @@
-*{
-    margin: 0px;
+*{ margin: 0px;
     padding: 0px;}
 
- body{   font-family: arial;
-background-color: #f1f1f5;}
+ body{ 
+       font-family: arial;
+    background-color: #f1f1f5;}
+
+
 .content{
     height: 350px;
     width: 600px;
@@ -27,28 +29,29 @@ background-color: #f1f1f5;}
     height: 230px;
     background-color: #c6f5bb;
     border-radius: 15px;
-
 }
+
 .dashboard h2{
-    font-size: 30px;
-    font-weight: 900;
     background-color: #5bb344;
     padding: 10px;
     text-align: center;
     margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: 900;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
 
 }
 
 .textbox1 ,.textbox2{
-    
-    overflow: hidden;
-    font-size: 30px;
-  background-color: #fff;
+    display: inline;
     padding: 5px;
     margin: 50px;
-    display: inline;
+    overflow: hidden;
+    font-size: 30px;
+    background-color: #fff;
+    
+    
 
 }
 
