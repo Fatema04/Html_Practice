@@ -1,0 +1,92 @@
+*{
+    margin: 0px;
+    padding: 0px;}
+
+ body{   font-family: arial;
+background-color: #f1f1f5;}
+.content{
+    height: 350px;
+    width: 600px;
+    position: absolute;
+    top: 100px;
+    left: 300px;
+
+}
+
+.logo{
+    height: 120px;
+}
+
+.logo img{
+    height: 130px;
+    padding-left: 170px;
+    
+}
+
+.dashboard{
+    height: 230px;
+    background-color: #c6f5bb;
+    border-radius: 15px;
+
+}
+.dashboard h2{
+    font-size: 30px;
+    font-weight: 900;
+    background-color: #5bb344;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+
+}
+
+.textbox1 ,.textbox2{
+    
+    overflow: hidden;
+    font-size: 30px;
+  background-color: #fff;
+    padding: 5px;
+    margin: 50px;
+    display: inline;
+
+}
+
+.textbox1 input,.textbox2 input{
+    font-size: 15px;
+    width: 70%;
+    padding: 5px;
+    border: none;
+    outline:none ;
+    background-color: #fff;
+    border-left: 1px solid grey;
+}
+
+.textbox1 i, .textbox2 i{
+    
+    padding-left: 10px;
+    
+}
+.textbox2 i{
+    margin-top: 20px;
+}
+
+.button1{
+    float: left;
+    margin: 10px;
+    padding-left: 40px;
+    
+}
+.btn1, .btn2{
+    padding: 6px;
+    font-size: 18px;
+    font-weight: 900;
+    border-radius: 5px;
+    background-color: #5bb344;
+}
+
+.button2{
+    float: right;
+    margin: 10px;
+    padding-right: 50px;
+}
