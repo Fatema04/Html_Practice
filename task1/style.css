@@ -1,0 +1,98 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.body{
+    height: 100vh;
+    width: 100vw;
+}
+
+.content{
+
+    height: 440px;
+    width: 600px;
+   position: absolute;
+   top: 90px;
+   left: 350px;
+   border:3px solid #042944 ;
+   border-radius: 10px;
+}
+.logo{
+    height: 140px;
+    background-color: #d7d7d7;
+}
+
+.logo img{
+    height: 135px;
+    padding-left: 220px;
+}
+.dashboard{
+    background-color:#d7d7d7;
+    height: 294px;
+    position: relative;
+}
+
+.dashboard h3{
+    background-color: #042944;
+    color: rgb(238, 235, 235);
+    font-size: 25px;
+    text-align: center;
+    padding:  10px;
+
+}
+.user, .log{
+    display: inline;
+    font-size: 20px;
+    font-weight: 900;
+   padding: 10px;
+   margin: 60px;
+    border-bottom: 1px solid black;
+}
+.user input, .log input{
+    padding: 8px;
+    width: 60%;
+    margin: 10px;
+    border: none;
+    outline: none;
+    background-color: #d7d7d7;
+}
+
+.text1{
+    float: right;
+    font-size: 20px;
+    font-weight: 800;
+    padding-right: 110px;
+    margin: 8px;
+    
+}
+.btn{
+    position: absolute;
+    top: 180px;
+    left: 200px;
+    font-size: 25px;
+    font-weight: 800;
+    padding: 5px 60px;
+    margin: 10px;
+    border-radius: 50px;
+    background-color: #042944;
+    color: rgb(238, 235, 235);
+}
+
+.text2{
+
+    position: absolute;
+    top: 230px;
+    left: 170px;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 20px;
+}
+.text2  a{
+    text-decoration: none;
+    background-color: #042944;
+    color: rgb(238, 235, 235);
+    padding: 10px;
+    border-radius: 7px;
+}
