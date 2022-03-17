@@ -18,10 +18,11 @@
    left: 350px;
    border:3px solid #042944 ;
    border-radius: 10px;
+   font-family: helvetica;
 }
 .logo{
     height: 140px;
-    background-color: #d7d7d7;
+    background-color: #f5f0f0;
 }
 
 .logo img{
@@ -29,7 +30,7 @@
     padding-left: 220px;
 }
 .dashboard{
-    background-color:#d7d7d7;
+    background-color:#f5f0f0;
     height: 294px;
     position: relative;
 }
@@ -56,7 +57,7 @@
     margin: 10px;
     border: none;
     outline: none;
-    background-color: #d7d7d7;
+    background-color: #f5f0f0;
 }
 
 .text1{
