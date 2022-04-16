@@ -1,0 +1,114 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+h1{
+    height: 10vh;
+    width: 100%;
+    color: rgb(34, 33, 33);
+    text-align: center;
+    margin-top: 20px;
+    
+    
+}
+
+.center{
+    height: 90vh;
+    padding-top: 0%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+  
+    
+    
+}
+
+.left{
+    width: 50%;
+    letter-spacing: 2px;
+    color: rgb(61, 63, 61);
+    text-align: justify;
+    font-size: 20px;
+}
+.right {
+    width: 50%;
+    box-sizing: border-box;
+}
+
+img{
+    width: 500px;
+    height: 350px;
+  
+ 
+
+}
+
+/*--------------------Media Quries------------------------*/
+
+/*--------------------dekstop & laptop--------------------*/
+
+@media(min-width:1024px){
+    .left{
+        margin: 10px;
+        line-height: 1.3;
+    }
+    .right img{
+        padding-left: 60px;
+    }
+}
+
+/*---------------------tab & iPads-----------------------*/
+
+@media(max-width:769px) and (min-width:1023px){
+
+    h1{ 
+        color: rgb(7, 123, 177);
+    }
+    
+    .left{
+        color: rgb(66, 139, 161);
+    }
+    .right img{
+        padding: 10px;
+        height: auto;
+        width: 100%;
+    }
+
+}
+
+/*---------------------mobile phone----------------------*/
+
+@media (max-width:768px){
+    h1{
+        color: rgb(12, 12, 95);
+    }
+    .center{
+        display: block;
+    }
+    .left{
+        line-height: 1.4;
+        color: rgb(109, 109, 170);
+        width: 100%;
+    }
+    .right{
+        width: 100%;
+        
+    }
+    .right img{
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media(max-width:468px){
+    .left{
+        width: 100%;
+        
+    }
+    .right img{
+        padding: 10px;
+        box-sizing: border-box;
+    }
+}
