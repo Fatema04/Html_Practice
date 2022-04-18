@@ -21,20 +21,97 @@ body{
     width: 100%;
     display: flex;
     justify-content: space-between;
+    
+    
     position: relative;
 }
-/*----------------mainsection end---------------*/
+
 
 
 
 /*----------------backsection start---------------*/
 
 .backsection{
-    
+    position: absolute;
+    left: 700px;
     width: 45%;
-    background: #dc4d58;
+    background: linear-gradient(to top , #fff 60%, #6ee0a0 40%);
+ 
+}
+.description{
+    display: flex;
+}
+.description p{
+    color: rgb(54, 52, 52);
+ line-height: 1.4;
+ letter-spacing: 1px;
+ font-size: 20px;
+ padding: 20px;
+}
+.description img{
+    padding-top: 20px;
+    border-radius:67% 33% 70% 30% / 30% 52% 48% 70%  ;
 }
 
+.offer{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    position: relative;
+}
+.offertext{
+    color: rgb(54, 52, 52);
+    padding-left: 30px;
+    margin-top: 20px;
+}
+.offer img{
+    position: absolute;
+    left: 60px;
+    top:20px ;
+  border-radius:45% 55% 52% 48% / 36% 52% 48% 64%  ;
+}
+
+.partner{
+    display: flex;
+    justify-content: space-around;
+    margin: 80px 0px 20px 15px;
+}
+.partner3 img {
+    border: 1px solid rgb(20, 20, 20);}
+
+.partner h2{
+    color: rgb(54, 52, 52);
+    font-size: 22px;
+    padding: 20px 0px 10px 25px;
+}
+
+.step{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.footersection{
+    margin-top: 30px;
+}
+.footersection h3{
+    padding-left: 190px;
+    color: rgb(54, 52, 52);
+    font-size: 30px;
+}
+.step{
+    margin-bottom: 20px;
+}
+.step img{
+    padding-left: 30px;
+}
+
+
+
+.step p{
+    color: rgb(54, 52, 52);
+    padding-left: 40px;
+    font-size: 25px;
+}
 /*------------------backsection end-----------------*/
 
 
@@ -46,7 +123,7 @@ body{
     width: 55%;
     position: absolute;
     left: 30px;
-    top: 100px;
+    top: 160px;
     margin-bottom: 10px;
     background: linear-gradient( to bottom , #3c9269 55% ,#fff 45%);
 }
