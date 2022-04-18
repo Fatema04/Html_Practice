@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital@1&display=swap');
+
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Fira Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    scroll-behavior:smooth;
+    background-color: #b2d3c3;
+}
+
+/*----------------mainsection start---------------*/
+
+.mainsection{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+/*----------------mainsection end---------------*/
+
+
+
+/*----------------backsection start---------------*/
+
+.backsection{
+    
+    width: 45%;
+    background: #dc4d58;
+}
+
+/*------------------backsection end-----------------*/
+
+
+
+/*------------------frontsection start-----------------*/
+
+.frontsection{
+    border: 1px solid black;
+    width: 55%;
+    position: absolute;
+    left: 30px;
+    top: 100px;
+    margin-bottom: 10px;
+    background: linear-gradient( to bottom , #3c9269 55% ,#fff 45%);
+}
+
+/*------------------headersection start-----------------*/
+.headersection{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+
+font-size: 20px;
+color: #fff;
+padding-left: 30px;
+}
+
+.navbar ul {
+    list-style: none;
+
+}
+.navbar ul li{
+    display: inline-block;
+    margin: 8px;
+    
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 900;
+    color: #fff;
+    text-transform:capitalize;
+    
+}
+
+/*------------------headersection end-----------------*/
+
+
+
+/*------------------containetsection start-----------------*/
+.container {
+    
+    display: flex;
+    justify-content: space-between;
+    
+    height: 500px;
+}
+/*------------------leftside start-----------------*/
+
+.left{
+    width: 50%;
+    line-height: 1.4;
+    color: #fff;
+    text-shadow: 1px 2px 2px solid rgb(20, 20, 20);
+}
+.left h2{
+    padding: 20px 5px 1px 15px;
+    font-size: 35px;
+    font-weight: bolder;
+}
+.left h4{
+    padding: 0px 5px 1px 15px;
+    font-size: 25px;
+    font-weight: bolder;
+}
+.left h6{
+    padding: 0px 5px 1px 15px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.button{
+    margin: 20px 0px;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bolder;
+    color: #fff;
+    border-radius: 20px;
+}
+.button a{
+    text-decoration: wavy;
+    color: #3c9269;
+}
+
+/*------------------leftside end-----------------*/
+
+
+
+/*------------------rightside start-----------------*/
+.right{
+    width: 50%;
+    display: flex;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.right h3 p {
+    padding-left: 3px;
+}
+.demo1 , .demo2,.demo3 , .demo4{
+    position: absolute;
+    background-color: #fff;
+    border-radius: 10px;
+    top: 30px;    
+}
+
+.demo3{
+   top: 250px;
+    left: 10px; 
+}
+.demo2{
+   top: 5px;
+    left: 170px;
+}
+
+.demo4{
+    top: 230px;
+    left: 180px;
+}
+.right img{
+    border-radius: 10px;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+}
+.item1, .item2, .item3{
+    margin: 10px;
+}
+.menu h5{
+    font-size: 25px;
+}
+
+.menu p{
+    font-size: 17px;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+
+}
+/*------------------rightside start-----------------*/
+/*------------------frontsection end-----------------*/
+/*------------------containetsection end-----------------*/
