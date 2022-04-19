@@ -11,7 +11,7 @@
 
 body{
     scroll-behavior:smooth;
-    background-color: #b2d3c3;
+    background-color: #9fc686;
 }
 
 /*----------------mainsection start---------------*/
@@ -26,23 +26,20 @@ body{
     position: relative;
 }
 
-
-
-
-/*----------------backsection start---------------*/
-
+/*-------------------backsection start---------------*/
 .backsection{
     position: absolute;
     left: 700px;
     width: 45%;
-    background: linear-gradient(to top , #fff 60%, #6ee0a0 40%);
+    background: linear-gradient(to top , #fff 60%, #50b360 40%);
  
 }
 .description{
     display: flex;
 }
 .description p{
-    color: rgb(54, 52, 52);
+    color:#fff;
+    text-shadow: 1px 1px rgb(51, 50, 50);
  line-height: 1.4;
  letter-spacing: 1px;
  font-size: 20px;
@@ -60,7 +57,8 @@ body{
     position: relative;
 }
 .offertext{
-    color: rgb(54, 52, 52);
+    color: #fff;
+    text-shadow: 1px 1px rgb(51, 50, 50);
     padding-left: 30px;
     margin-top: 20px;
 }
@@ -69,6 +67,9 @@ body{
     left: 60px;
     top:20px ;
   border-radius:45% 55% 52% 48% / 36% 52% 48% 64%  ;
+}
+.date{
+    font-weight: bolder;
 }
 
 .partner{
@@ -112,20 +113,20 @@ body{
     padding-left: 40px;
     font-size: 25px;
 }
-/*------------------backsection end-----------------*/
+/*------------------backsection  end-----------------*/
 
 
 
 /*------------------frontsection start-----------------*/
 
 .frontsection{
-    border: 1px solid black;
+    
     width: 55%;
     position: absolute;
     left: 30px;
     top: 160px;
     margin-bottom: 10px;
-    background: linear-gradient( to bottom , #3c9269 55% ,#fff 45%);
+    background: linear-gradient( to bottom , #179046 55% ,#fff 45%);
 }
 
 /*------------------headersection start-----------------*/
@@ -141,6 +142,7 @@ body{
 
 font-size: 20px;
 color: #fff;
+text-shadow: 1px 1px rgb(51, 50, 50);
 padding-left: 30px;
 }
 
@@ -159,6 +161,7 @@ padding-left: 30px;
     font-size: 18px;
     font-weight: 900;
     color: #fff;
+    text-shadow: 1px 1px rgb(51, 50, 50);
     text-transform:capitalize;
     
 }
@@ -181,7 +184,7 @@ padding-left: 30px;
     width: 50%;
     line-height: 1.4;
     color: #fff;
-    text-shadow: 1px 2px 2px solid rgb(20, 20, 20);
+    text-shadow: 1px 1px rgb(51, 50, 50);
 }
 .left h2{
     padding: 20px 5px 1px 15px;
@@ -208,8 +211,9 @@ padding-left: 30px;
     border-radius: 20px;
 }
 .button a{
-    text-decoration: wavy;
+    text-decoration: none;
     color: #3c9269;
+    text-shadow: 1px 1px rgb(51, 50, 50);
 }
 
 /*------------------leftside end-----------------*/
@@ -230,6 +234,7 @@ padding-left: 30px;
 .demo1 , .demo2,.demo3 , .demo4{
     position: absolute;
     background-color: #fff;
+    color: rgb(54, 52, 52); ;
     border-radius: 10px;
     top: 30px;    
 }
@@ -251,16 +256,41 @@ padding-left: 30px;
     border-radius: 10px;
 }
 
+.menutext{
+color:  rgb(54, 52, 52);;
+}
+.menutext h3{
+    font-size: 30px;
+    letter-spacing: 0.9;
+    padding-left: 170px;
+    margin-bottom: 20px;
+}
+
+.menutext h6{
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 0.9;
+    padding-left: 200px;
+    margin-bottom: 20px;
+}
 .menu{
     display: flex;
     justify-content: space-between;
+    color:rgb(54, 52, 52);
 }
 .item1, .item2, .item3{
     margin: 10px;
 }
+
+.item2{text-align: center;
+    border:1px dashed rgb(56, 54, 54) ;
+    border-top-left-radius: 50px;
+
+}
 .menu h5{
     font-size: 25px;
 }
+
 
 .menu p{
     font-size: 17px;
@@ -268,6 +298,7 @@ padding-left: 30px;
     margin-bottom: 10px;
 
 }
-/*------------------rightside start-----------------*/
+/*------------------rightside end-----------------*/
 /*------------------frontsection end-----------------*/
 /*------------------containetsection end-----------------*/
+/*------------------maincontent section---------------*/
